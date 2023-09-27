@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>2023/09/26</title>
+</head>
+<body>
+  <form id="frmLogin" class="hidden">
+    <input required maxlength="19" type="text" placeholder="이름을 적어 주세요."/>
+    <input type="submit" value="Log In" />
+  </form>
+  
+  <h1 id="greeting" class="hidden"></h1>
+  <h2 id="clock"></h2>
+
+  <form id="frmTodo">
+    <input type="text" placeholder="할 일을 적고 엔터키를 누르세요" required />
+  </form>
+
+  <ul id="lstTodo">
+  </ul>
+
+  <div id="weather-description">
+    <p>날씨: <span>로딩 중...</span></p> 
+  </div>
+  <img id="weather-icon" src="" alt="날씨 아이콘">
+  <div id="city">
+    <p>도시: <span>로딩 중...</span></p>
+  </div>
+
+
+  <div id="quote">
+    <span>명언</span>
+    <span>작가</span>
+  </div>
+  <script src="js/greeting.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+  
+
+
+</body>
+</html>
